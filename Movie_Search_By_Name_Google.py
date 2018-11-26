@@ -26,4 +26,14 @@ query = "site:userscloud.com "+movie
 print query
 for j in search(query, tld="com", num=10, stop=1, pause=2):
     print(j)
+    
+query = "site:dl2.yoozdl.com "+movie
+print query
+for j in search(query, tld="com", num=10, stop=1, pause=2):
+    print(j)
+    
+query = "site:dl8.heyserver.in "+movie
+print query
+for j in search(query, tld="com", num=10, stop=1, pause=2):
+    print(j)
 
