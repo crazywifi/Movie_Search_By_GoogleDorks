@@ -36,4 +36,28 @@ query = "site:dl8.heyserver.in "+movie
 print query
 for j in search(query, tld="com", num=10, stop=1, pause=2):
     print(j)
+    
+query = "site:cdn.par30dl.com "+movie
+print query
+for j in search(query, tld="com", num=10, stop=1, pause=2):
+    print(j)
 
+query = "site:dl.sitemovie.ir "+movie
+print query
+for j in search(query, tld="com", num=10, stop=1, pause=2):
+    print(j)
+    
+query = "site:sv4avadl.uploadt.com "+movie
+print query
+for j in search(query, tld="com", num=10, stop=1, pause=2):
+    print(j)
+    
+query = "site:79.127.126.110/Movie/ "+movie
+print query
+for j in search(query, tld="com", num=10, stop=1, pause=2):
+    print(j)
+    
+query = "site:tvtv.pk/torrents/ "+movie
+print query
+for j in search(query, tld="com", num=10, stop=1, pause=2):
+    print(j)
