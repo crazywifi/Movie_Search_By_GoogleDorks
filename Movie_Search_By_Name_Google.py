@@ -1,4 +1,3 @@
-
 try:
     from googlesearch import search
 except ImportError:
@@ -61,3 +60,20 @@ query = "site:tvtv.pk/torrents/ "+movie
 print query
 for j in search(query, tld="com", num=10, stop=1, pause=2):
     print(j)
+
+query = "site:dl.p30movies.co "+movie
+print query
+for j in search(query, tld="com", num=10, stop=1, pause=2):
+    print(j)
+
+
+query = "site:thepiratebay.rocks/torrent/ "+movie
+print query
+for j in search(query, tld="com", num=10, stop=1, pause=2):
+    print(j)
+
+query = "site:limetorrents.info "+movie
+print query
+for j in search(query, tld="com", num=10, stop=1, pause=2):
+    print(j)
+    
